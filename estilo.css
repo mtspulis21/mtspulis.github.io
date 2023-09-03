@@ -1,0 +1,153 @@
+/* style gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease; /* efeito de transição */
+}
+
+nav a:hover {
+    color: #FFA500; /* laranja ao passar o mouse */
+}
+
+/* style para a seção "Sobre Mim" */
+#sobre-mim {
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    margin: 20px;
+    border-radius: 10px; /* borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombra */
+}
+
+#sobre-mim h2 {
+    color: #FFA500; /* laranja */
+}
+
+/* style para a seção "Formação Acadêmica" */
+#formacao-academica {
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    margin: 20px;
+    border-radius: 10px; /* borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombra */
+}
+
+#formacao-academica h2 {
+    color: #FFA500; /* laranja */
+}
+
+/* style para a seção "Portfólio" */
+#portfolio {
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    margin: 20px;
+    border-radius: 10px; /* borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombra */
+}
+
+#portfolio h2 {
+    color: #FFA500; /* laranja */
+}
+
+/* style para a seção "Contato" */
+#contato {
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    margin: 20px;
+    border-radius: 10px; /* borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* sombra */
+}
+
+#contato h2 {
+    color: #FFA500; /* laranja */
+}
+
+/* style para o formulário de contato */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #FFA500; /* laranja */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FFA500; /* laranja */
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px; /* borda arredondada */
+}
+
+button[type="submit"] {
+    background-color: #FFA500; /* laranja */
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* borda arredondada */
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #FF4500; /* laranja mais escuro */
+}
+
+/* style para a seção de ícones no footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #FFA500; /* laranja */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #FF4500; /* laranja mais escuro */
+}
